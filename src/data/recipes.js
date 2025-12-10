@@ -242,7 +242,7 @@ export const recipes = [
     name: "Pechuga Rellena de Espinaca y Queso Panela",
     category: "Plato fuerte saludable",
     description: "Pechuga rellena con espinaca fresca y queso panela, acompañada de puré de papa ligero. Platillo elegante, balanceado y visualmente atractivo.",
-    image: "https://images.unsplash.com/photo-1588348435945-58047754ded6?w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "410 kcal",
       proteina: "42 g",

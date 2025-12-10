@@ -31,17 +31,15 @@ function Home() {
         </div>
 
         <div className="info-section">
-          <div className="info-item">
-            <p className="info-label">Autor</p>
-            <p className="info-value">Aylen Cetina López</p>
+          <div className="info-item author">
+            <p className="info-value">Lic. Aylen Cetina López</p>
           </div>
-          <div className="info-item">
-            <p className="info-label">Institución</p>
-            <p className="info-value">Instituto Tecnológico Superior de Comalcalco</p>
-          </div>
-          <div className="info-item">
-            <p className="info-label">Proyecto</p>
-            <p className="info-value">Menú Seleccionado</p>
+          <div className="info-item institution">
+            <p className="info-value institution-name">
+              Instituto Tecnológico
+              <br />
+              Superior de Comalcalco
+            </p>
           </div>
         </div>
 
