@@ -42,6 +42,7 @@ function RecipeModal({ recipe, onClose }) {
           <div className="modal-header">
             <h2 className="modal-title">{recipe.name}</h2>
             <p className="modal-category">{recipe.category}</p>
+            {recipe.price && <p className="modal-price">{recipe.price}</p>}
           </div>
 
           <div className="modal-body">

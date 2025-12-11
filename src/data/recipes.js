@@ -4,6 +4,7 @@ export const recipes = [
     name: "Ensalada de Atún con Garbanzos y Espinaca",
     category: "Plato fuerte frío",
     description: "Ensalada fresca y completa que combina atún en agua, garbanzos y espinaca fresca. Alta en proteína, fibra y micronutrientes antioxidantes. Perfecta como opción ligera y saludable.",
+    price: "$40 la orden",
     image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "390 kcal",
@@ -37,6 +38,7 @@ export const recipes = [
     name: "Wrap Integral de Pollo Mediterráneo",
     category: "Plato fuerte práctico",
     description: "Wrap mediterráneo que combina pollo sazonado con hierbas, vegetales frescos y un aderezo ligero a base de yogur. Perfecto para consumo inmediato o para llevar.",
+    price: "$30 pz",
     image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "420 kcal",
@@ -71,6 +73,7 @@ export const recipes = [
     name: "Tortitas de Avena con Plátano",
     category: "Desayuno saludable",
     description: "Alternativa saludable a los hot cakes tradicionales. Elaboradas con avena molida, plátano maduro y huevo. Suaves, ligeramente dulces y con un sabor cálido por la canela.",
+    price: "$12",
     image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "320 kcal",
@@ -94,9 +97,10 @@ export const recipes = [
   },
   {
     id: 6,
-    name: "Pasta Integral con Salsa de Tomate y Pollo",
+    name: "Pasta Integral con Salsa de Tomate Natural Montada en Tortilla Horneada",
     category: "Plato fuerte de pasta",
     description: "Pasta integral con pollo desmenuzado y salsa casera de tomate preparada con ingredientes frescos. Platillo nutritivo, económico y reconfortante.",
+    price: "$16",
     image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "470 kcal",
@@ -124,9 +128,10 @@ export const recipes = [
   },
   {
     id: 8,
-    name: "Tacos de Tinga de Pollo",
+    name: "Tacos de Tinga de Pollo en Espinaca",
     category: "Plato fuerte saludable",
-    description: "Clásico mexicano adaptado como opción saludable. Pechuga desmenuzada con salsa de jitomate, cebolla y chipotle, servido en tortillas integrales.",
+    description: "Clásico mexicano adaptado como opción saludable. Pechuga desmenuzada con salsa de jitomate, cebolla y chipotle, servido en tortillas de espinaca.",
+    price: "3 x $30",
     image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "380 kcal",
@@ -159,7 +164,8 @@ export const recipes = [
     name: "Omelette de Claras con Espinaca y Queso Panela",
     category: "Desayuno alto en proteína",
     description: "Omelette bajo en grasa hecho con claras, espinaca fresca y queso panela. Platillo ligero, rápido y económico que proporciona energía sin sensación de pesadez.",
-    image: "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800&auto=format&fit=crop",
+    price: "$36 porción",
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "250 kcal",
       proteina: "28 g",
@@ -181,9 +187,10 @@ export const recipes = [
   },
   {
     id: 10,
-    name: "Sándwich Integral de Huevo y Aguacate",
+    name: "Sándwich Integral con Huevo Cocido",
     category: "Desayuno saludable",
     description: "Sándwich integral que combina huevo cocido, pan integral y aguacate fresco. Nutritivo, económico y saciante con grasas saludables y proteína de alta calidad.",
+    price: "$30",
     image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "350 kcal",
@@ -209,9 +216,10 @@ export const recipes = [
   },
   {
     id: 12,
-    name: "Arroz Frito Saludable con Verduras y Huevo",
+    name: "Arroz Frito con Verduras",
     category: "Plato fuerte ligero",
     description: "Adaptación ligera del clásico asiático. Arroz integral con verduras frescas y huevo. Rico en carbohidratos complejos, fibra y proteína.",
+    price: "$37 orden",
     image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "450 kcal",
@@ -239,9 +247,10 @@ export const recipes = [
   },
   {
     id: 15,
-    name: "Pechuga Rellena de Espinaca y Queso Panela",
+    name: "Pechuga de Pollo Rellena de Espinaca y Queso Panela con Puré de Papa",
     category: "Plato fuerte saludable",
     description: "Pechuga rellena con espinaca fresca y queso panela, acompañada de puré de papa ligero. Platillo elegante, balanceado y visualmente atractivo.",
+    price: "$60 orden",
     image: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=800&auto=format&fit=crop",
     nutrition: {
       energia: "410 kcal",

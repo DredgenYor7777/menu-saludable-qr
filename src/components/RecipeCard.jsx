@@ -26,6 +26,7 @@ function RecipeCard({ recipe, onClick }) {
       <div className="recipe-content">
         <h3 className="recipe-name">{recipe.name}</h3>
         <p className="recipe-category">{recipe.category}</p>
+        {recipe.price && <p className="recipe-price">{recipe.price}</p>}
         <p className="recipe-description">{recipe.description}</p>
 
         <div className="recipe-nutrition-preview">
